@@ -1,0 +1,217 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) { 
+  
+  /* navbar part css start */
+
+  .navbar-nav{
+    padding-top: 20px;
+  }
+  .navbar-nav .nav-item{
+    text-align: center;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+  
+  /* navbar part css end */
+  
+  /* banner part css start */
+  
+  .banner {
+    padding: 80px 0 120px;
+  }
+  .banner_content h4 {
+    font-size: 40px;
+  }
+  .banner_content p {
+    font-size: 15px;
+    padding-bottom: 65px;
+  }
+
+  /* banner part css end */
+
+  /* service part css start */
+
+  .ser_content h4 {
+    font-size: 18px;
+  }
+  .service {
+    padding: 90px 0;
+  }
+
+  /* service part css end */
+
+  /* member part css start */
+
+  .member_icon {
+    padding-bottom: 20px;
+  }
+
+  /* member part css end */
+
+  /* review part css start */
+
+  .review_text {
+    padding: 80px 0 0 60px;
+  }
+  .review_text h4 {
+    color: #fff;
+    font-family: 'Cardo', serif;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  /* review part css end */
+
+  /* footer part css start */
+
+  .footer_content h4{
+    padding-top: 30px;
+  }
+
+  /* footer part css end */
+
+  /* copy part css start */
+
+  .copy {
+    padding: 40px 0;
+  }
+  .copy_content p {
+    font-size: 12px;
+  }
+
+  /* copy part css end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* navbar part css start */
+
+  .navbar-nav{
+    padding-top: 30px;
+  }
+  .navbar-nav .nav-item{
+    text-align: right;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 90px 0 130px;
+  }
+  .banner_content h4 {
+    font-size: 50px;
+  }
+  .banner_content p {
+    font-size: 17px;
+    padding-bottom: 60px;
+  }
+
+  /* banner part css end */
+  
+  /* member part css start */
+
+  .member_icon{
+    padding-bottom: 30px;
+  }
+
+  /* member part css end */
+
+  /* review part css start */
+
+  .review_text {
+    padding: 85px 0 0 110px;
+  }
+
+  /* review part css end */
+  
+  /* footer part css start */
+  
+  .footer_content {
+    padding-bottom: 30px;
+  }
+  
+  /* footer part css end */
+  
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  /* navbar part css start */
+  
+  .navbar-nav{
+    padding-top: 30px;
+  }
+  .navbar-nav .nav-item{
+    text-align: right;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+  
+  /* navbar part css end */
+  
+  /* member part css start */
+  
+  .member_icon{
+    padding-bottom: 30px;
+  }
+  
+  /* member part css end */
+  
+  /* review part css start */
+  
+  .review_text {
+      padding: 90px 0 0 120px;
+  }
+  
+  /* review part css end */
+  
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+  /* review part css start */
+
+  .review_text {
+    padding: 25px 0 0 61px;
+  }
+
+  /* review part css end */
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  /* review part css start */
+
+  .review_text {
+    padding: 123px 0 0 70px;
+  }
+
+  /* review part css end */
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+  /* review part css start */
+
+  .review_text {
+    padding: 175px 0 0 80px;
+  }
+  
+  /* review part css end */
+
+}
